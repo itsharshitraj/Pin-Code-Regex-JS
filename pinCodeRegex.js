@@ -5,3 +5,4 @@ const testPinCode = (pin) => {
 };
 
 console.log(testPinCode("400088")); // true
+console.log(testPinCode("A400088")); // false
